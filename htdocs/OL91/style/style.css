@@ -1,0 +1,372 @@
+/*	-------------------------------------------------------------
+	einmaleins - Büro für Gestaltung 2013	
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	E R H A R D T & L E I M E R  G M B H  ///   D O 8 2
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	
+	-------------------------------------------------------------
+	GLOBAL RESET
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+					* {
+						 margin: 0;
+						 padding: 0;
+					}
+
+/*	-------------------------------------------------------------
+	ALLGEMEINE ATTRIBUTE
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+				body {
+					background-image: url(../img/bg_header_gradient_tile.jpg);
+					background-repeat: repeat-x;
+					background-color: #c3c3c3;
+					margin: 0em;
+					}
+				
+				body,td,th {
+					font-family: Arial, Helvetica, sans-serif;
+					color: #0e518d;
+					}
+					
+				h1 {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 2.85em;
+					font-weight: bold;
+					text-decoration: none;
+					padding-left: 0px;
+	               	}
+					
+				h2 {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 2em;
+					font-weight: bold;
+					text-decoration: none;
+					color: #FFF;
+					}
+				
+				h3 {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 1em;
+					font-weight: normal;
+					text-decoration: none;
+					width: 80%;
+					color: #FFF;
+					letter-spacing: 0.1em;
+					}
+				
+				h4 {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 1em;
+					font-weight: normal;
+					text-decoration: none;
+					color: #0E518D;
+					letter-spacing: 0.1em;
+					}
+              
+			  	#container {
+					width: 90%;
+					text-align: left;
+					margin: 0 0 0 50px;
+               		}
+				
+				#head {
+					width: 100%;
+					border-bottom-width: 2px;
+					border-bottom-style: solid;
+					border-bottom-color: #b5152d;
+					background-repeat: repeat-x;
+					height: 7em;
+					margin-top: 0;
+					margin-right: 0;
+					margin-bottom: -0.25em;
+					margin-left: 0;
+					padding-top: 0;
+					padding-right: 0;
+					padding-bottom: 0;
+					padding-left: 50px;
+					vertical-align: text-top;
+				  	}
+				
+				#statusbar {
+					background-color: #707070;
+					width: 100%;
+					border-top-width: 4px;
+					border-top-style: solid;
+					border-top-color: #b5152d;
+					margin: -0.25em 0em 0.75em 0em;
+					padding: 0.75em 0 0.75em 50px;
+				  	}
+					
+-------------------------------------------------------------
+	NAVIGATIONSMENÜ
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/
+               #navbar {
+					width: 90%;
+					margin-top: 0.05em;
+               		}
+               
+			   #navbar ul {
+					list-style: none;
+               		}
+               
+			   #navbar li {
+					margin: 0 1px 0 0;
+					display: inline;
+					width: auto;
+					text-align: left;
+               		}
+					
+					
+					
+/*	-------------------------------------------------------------
+	a. Wiederkehrende Buttons
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/			   
+               #navbar a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_arrow.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 0.75em;
+					line-height: 0.75em;
+					font-weight: bold;
+					height: 0.75em;
+					padding-top: 10px;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 40px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+               		}
+
+               #navbar a:hover, #navbar a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+              		}
+					
+					
+					
+/*	-------------------------------------------------------------
+	b. Button Backup
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/	
+			  #navbar .backup a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_backup.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 1.2em;
+					line-height: 2.25em;
+					font-weight: bold;
+					height: 2.25em;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 90px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+					padding-top: 10px;
+					margin-top: 0.1em;
+					}
+								
+				#navbar .backup a:hover, #navbar .backup a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+					}
+					
+					
+					
+/*	-------------------------------------------------------------
+	c. Button Restore
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/									
+				#navbar .restore a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_restore.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 1.2em;
+					line-height: 2.25em;
+					font-weight: bold;
+					height: 2.25em;
+					padding-top: 10px;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 90px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+					margin-top: 0.25em;
+					}
+								
+				#navbar .restore a:hover, #navbar .restore a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+					}
+					
+					
+					
+/*	-------------------------------------------------------------
+	d. Button Upgrade
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/	
+				#navbar .upgrade a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_upgrade.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 1.2em;
+					line-height: 2.25em;
+					font-weight: bold;
+					height: 2.25em;
+					padding-top: 10px;
+					padding-right: 0px;
+					padding-bottom: 10px;
+					padding-left: 90px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+					margin-top: 0.25em;
+					margin-bottom: 0.5em;
+					}
+								
+				#navbar .upgrade a:hover, #navbar .upgrade a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+					}
+								
+	
+/*	-------------------------------------------------------------
+	e. Button Restart
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/											
+				#navbar .restart a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_restart.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 1.2em;
+					line-height: 2.25em;
+					font-weight: bold;
+					height: 2.25em;
+					padding-top: 10px;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 90px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+					margin-top: 0.1em;
+					margin-bottom: 0.25em;
+					}
+								
+				#navbar .restart a:hover, #navbar .restart a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+					}
+								
+	
+
+/*	-------------------------------------------------------------
+	f. Button back to Mainpage
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/	
+				#navbar .backMain a {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_backMain.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #fff;
+					font-size: 1.2em;
+					line-height: 2.25em;
+					font-weight: bold;
+					height: 2.25em;
+					padding-top: 10px;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 90px;
+					vertical-align: text-bottom;
+					text-decoration: none;
+					margin-top: 0.1em;
+				}
+								
+				#navbar .backMain a:hover, #navbar .backMain a:focus {
+					background-color: #0E518D;
+					color: #D6D6D6;
+					}
+								
+	
+
+/*	-------------------------------------------------------------
+	g. Button Uplaod
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -	*/	
+				#upload {
+					display: block;
+					font-family: Arial, Helvetica, sans-serif;
+					background-color: #0E518D;
+					background-image:url(../img/btn_upload.gif);
+					background-repeat:no-repeat;
+					background-position: 7px center;
+					letter-spacing: 0.1em;
+					-moz-border-radius: 10px; /*Firefox*/
+					-webkit-border-radius: 10px; /*Safari, Chrome*/
+					-khtml-border-radius: 10px; /*Konquerer*/
+					border-radius: 10px; /*CSS3*/
+					border:4px solid #FFFFFF;
+					color: #ffffff;
+					font-size: 1em;
+					line-height: 1.5em;
+					font-weight: bold;
+					height: 1.5em;
+					padding-top: 10px;
+					padding-right: 15px;
+					padding-bottom: 10px;
+					padding-left: 65px;
+					vertical-align: middle;
+					text-decoration: none;
+					margin-top: 1em;
+					margin-bottom: 0.75em;
+					}
+

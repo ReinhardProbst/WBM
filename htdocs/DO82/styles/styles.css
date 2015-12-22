@@ -1,0 +1,58 @@
+body {
+    margin: 10px auto 10px auto; /* Center border within browser window */
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    background: white;
+    width: 400px;
+    border: solid;
+    border-width:5px;
+    border-radius: 5px;
+    border-color: silver; /* ??? */
+}
+
+body div {
+    padding-top:4px;
+    padding-bottom:8px;
+    background: rgb(148,160,161); /* E+L */
+    /*background: rgb(35,52,58);  E+L */
+    color: white; /* ??? */
+    height: 270px;
+}
+
+body div input[type="submit"] {
+    width: 350px;
+    border-radius: 4px;
+    background: rgb(0,117,189); /* E+L */
+    color: white; /* ??? */
+    /*box-shadow: 1px 1px 1px rgba(148,160,161, 0.75); E+L */
+}
+
+body header {
+    padding-top:1px;
+    padding-bottom:1px;
+    background: rgb(35,52,58); /* E+L */
+    /*background: rgb(148,160,161);  E+L */
+    height: 50px;
+}
+
+body header img {
+    float: left;
+    height: 50px;
+}
+
+body header h1 {
+    margin-top: 4px;
+    color: white; /* ??? */
+    text-transform: uppercase;
+}
+
+body footer {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    color: red;
+    text-align: left;
+    height: 15px;
+    background: rgb(35,52,58); /* E+L */
+    /*background: rgb(148,160,161);  E+L */
+}
+

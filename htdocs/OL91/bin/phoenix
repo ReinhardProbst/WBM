@@ -1,0 +1,17 @@
+#!/bin/sh
+
+while true
+do
+    case "$(nc -l 7000)" in
+    quit)
+        echo "Got quit cmd"
+        break
+    ;;
+    *)
+        echo "Got unknown cmd"
+    ;;
+    esac
+done
+
+echo "Exit phoenix successfully"
+

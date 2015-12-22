@@ -1,0 +1,16 @@
+#!/bin/sh
+
+REBOOT_REQ="../tmp/reboot_now"
+TO=3
+
+while true
+do
+    sleep $TO
+    if [ -f $REBOOT_REQ ]; then break; fi
+done
+
+sleep $TO
+
+rm $REBOOT_REQ
+
+echo "Now rebooting ..."

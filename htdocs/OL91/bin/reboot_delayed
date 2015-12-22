@@ -1,0 +1,22 @@
+#!/bin/sh
+
+REBOOT_REQ="../tmp/reboot_now"
+TIME_OUT=3
+
+if [ $# -gt 0 ]
+then
+    TIME_OUT=$1
+fi
+
+while true
+do
+    sleep $TIME_OUT
+    if [ -f $REBOOT_REQ ]; then break; fi
+    echo "awaiting.."
+done
+
+sleep $TIME_OUT
+
+rm $REBOOT_REQ
+
+echo "Now rebooting ..."
